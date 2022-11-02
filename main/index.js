@@ -38,8 +38,6 @@ document.querySelector("#app").innerHTML = `
     ${createCard('29/11', 'Terça', createGame('ecuador', 'Grupo A', '12:00', 'senegal') + createGame('netherlands', 'Grupo A', '12:00', 'qatar') + createGame('iran', 'Grupo B', '16:00', 'united-states') + createGame('wales', 'Grupo B', '16:00', 'england'))}
     ${createCard('30/12', 'Quarta', createGame('tunisia', 'Grupo D', '12:00', 'france') + createGame('australia', 'Grupo D', '12:00', 'denmark') + createGame('poland', 'Grupo C', '16:00', 'argentina') + createGame('saudi-arabia', 'Grupo C', '16:00', 'mexico'))}
     ${createCard('01/12', 'Quinta', createGame('croatia', 'Grupo F', '12:00', 'belgium') + createGame('canada', 'Grupo F', '12:00', 'morocco') + createGame('japan', 'Grupo E', '16:00', 'spain') + createGame('costa-rica', 'Grupo E', '16:00', 'germany'))}
-   
-   
     ${createCard('02/12', 'Sexta', createGame('south-korea', 'Grupo H', '12:00', 'portugal') + createGame('ghana', 'Grupo H', '12:00', 'uruguay') + createGame('serbia', 'Grupo E', '16:00', 'switzerland') + createGame('cameroon', 'Grupo E', '16:00', 'brazil'))}
     </main> 
 `
