@@ -36,11 +36,14 @@ body {
 
 body * {
   font-family: "Roboto", sans-serif;
+  grid-template-columns: 1fr;
 }
 
 #app {
   width: fit-content;
   margin: 5.2rem auto;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 header {
@@ -50,6 +53,7 @@ header {
 
 #cards {
   display: flex;
+  grid-template-columns: 1fr;
   flex-direction: column;
   gap: 3.2rem;
 }
@@ -141,10 +145,10 @@ p {
   }
 }
 
-@media (min-width: 700px) {
+@media (max-width: 700px) {
 
   #cards {
-    flex-direction: row;
+    flex-direction: column;
     max-width: 67rem;
     flex-wrap: wrap;
   }
